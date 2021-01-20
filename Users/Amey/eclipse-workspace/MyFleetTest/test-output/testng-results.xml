@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyFleetTest" duration-ms="85383" started-at="2021-01-20T10:33:13Z" finished-at="2021-01-20T10:34:39Z">
+    <groups>
+    </groups>
+    <test name="MyFleetTestData" duration-ms="85383" started-at="2021-01-20T10:33:13Z" finished-at="2021-01-20T10:34:39Z">
+      <class name="test.Test_GridFilter">
+        <test-method status="PASS" signature="loginSetup(java.lang.String)[pri:0, instance:test.Test_GridFilter@13deb50e]" name="loginSetup" is-config="true" duration-ms="17025" started-at="2021-01-20T10:33:13Z" finished-at="2021-01-20T10:33:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method status="PASS" signature="VerifyloginPage()[pri:0, instance:test.Test_GridFilter@13deb50e]" name="VerifyloginPage" duration-ms="23070" started-at="2021-01-20T10:33:30Z" description="Login Page Verification" finished-at="2021-01-20T10:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloginPage -->
+        <test-method status="PASS" signature="VerifyGridPTitle()[pri:0, instance:test.Test_GridFilter@13deb50e]" name="VerifyGridPTitle" duration-ms="16778" started-at="2021-01-20T10:33:54Z" description="Verify Grid P title - redirected" finished-at="2021-01-20T10:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyGridPTitle -->
+        <test-method status="PASS" signature="VerifyClientnameFilter()[pri:0, instance:test.Test_GridFilter@13deb50e]" name="VerifyClientnameFilter" duration-ms="8664" started-at="2021-01-20T10:34:10Z" description="Verify clinet name filter" finished-at="2021-01-20T10:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClientnameFilter -->
+        <test-method status="PASS" signature="VerifyInvoicedateFilter()[pri:0, instance:test.Test_GridFilter@13deb50e]" name="VerifyInvoicedateFilter" duration-ms="10383" started-at="2021-01-20T10:34:19Z" description="Verify Invoice date filter" finished-at="2021-01-20T10:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvoicedateFilter -->
+        <test-method status="PASS" signature="VerifyInvoicenumberFilter()[pri:0, instance:test.Test_GridFilter@13deb50e]" name="VerifyInvoicenumberFilter" duration-ms="8439" started-at="2021-01-20T10:34:29Z" description="Verify Invoice number filter" finished-at="2021-01-20T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvoicenumberFilter -->
+        <test-method status="PASS" signature="closeBr()[pri:0, instance:test.Test_GridFilter@13deb50e]" name="closeBr" is-config="true" duration-ms="743" started-at="2021-01-20T10:34:38Z" finished-at="2021-01-20T10:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBr -->
+      </class> <!-- test.Test_GridFilter -->
+    </test> <!-- MyFleetTestData -->
+  </suite> <!-- MyFleetTest -->
+</testng-results>
